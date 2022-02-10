@@ -3,6 +3,7 @@ import json
 from datetime import date
 
 class moonData():
+    '''Class moondata, serves data regarding the moons phases'''
     def __init__(self, date, key):
         self.key = key
         self.date = date
@@ -37,6 +38,7 @@ key = 'T8V7AVGLCMZZU7VD4F8LP5GBC'
 date = date.today()
 
 if __name__ == '__main__':
+    #print(help(moonData(date, key)))
     moon = moonData(date, key)
     moon.api()
     moon.gather()
