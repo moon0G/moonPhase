@@ -34,7 +34,7 @@ class moonData():
         elif self.moonphase<1:
             print(f"Tonight is a waning crescent; {self.moonphase}")
 
-key = 'T8V7AVGLCMZZU7VD4F8LP5GBC'
+key = ''
 date = date.today()
 
 if __name__ == '__main__':
